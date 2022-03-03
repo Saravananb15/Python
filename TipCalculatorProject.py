@@ -6,4 +6,4 @@ a = float(bill)
 b = int(percentage)
 sum = a/100*b
 person = (a+float(sum))/float(Count)
-print(round(person ,2))
+print(f"Each person should pay {round(person ,2)}")
